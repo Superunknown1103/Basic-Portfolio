@@ -1,4 +1,13 @@
 
+
+* {box-sizing:border-box;}
+
+.message {
+  width: 350px;
+  height: 200px;
+
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -6,7 +15,6 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #333;
-  background: #efeee7;
 }
 
 .box {
@@ -16,11 +24,40 @@ body {
   margin: 20px;
   margin-left: 275px;
   background-color: #008B8B;
-  text-align: left;
+  text-align: center;
 }
+
+.head {
+  color: #4aaaa5;
+}
+
+.profile
+  {border-color:#ffffff;
+  }
 
 header {
   background: #FFF8DC;
+}
+
+.footer {
+  border-style: solid;
+  border-color: #4aaaa5;
+  border width: 0px 20px 0px 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 15px;
+  background: #FFF8DC;
+  clear: both;
+}
+
+form {
+  display: block;
+  margin-top: 2em;
+
+}
+
+.p {
+  color: #777777;
 }
 
 .about , .portfolio , .contact {
@@ -34,14 +71,14 @@ header {
 
 
 .about {
-  margin-left: 1200px;
+  margin-left: 1075px;
 }
 .portfolio {
-  margin-left: 1100px;
+  margin-left: 975px;
 }
 
 .contact {
-  margin-left: 1275px;
+  margin-left: 1150px;
 }
 
 
@@ -50,13 +87,14 @@ h1 {
   margin: 0px;
   margin-bottom: 20px;
   font-size: 25px;
-  color: #FFF8DC;
+  color: #ffffff;
   background: 660099;
   text-align: left;
 }
 
 h2 {
   font-size: 24px;
+  font-family: Georgia, serif;
 }
 
 a {
@@ -65,14 +103,16 @@ a {
 
 .container {
   padding:1px 25px;
-  width: 600px;
+  width: 650px;
   height: 500px;
   margin-left: 260px;
   margin-top: 20px;
-  background-color: #DEB887;
+  margin-bottom: 20px;
+  background-color: #ffffff;
   text-align: left;
   float: left;
 }
+
 
 .connect {
   padding:1px 25px;
@@ -80,7 +120,7 @@ a {
   height: 300px;
   margin-left: 950px;
   margin-top: 40px;
-  background-color: #DEB887;
+  background-color: #ffffff;
   text-align: left
-  float: right;
+  float: left;
 }
