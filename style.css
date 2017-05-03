@@ -40,14 +40,14 @@ header {
 }
 
 .footer {
-  border-style: solid;
-  border-color: #4aaaa5;
-  border width: 0px 20px 0px 0px;
+  border-top: 20px #4aaaa5;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   margin-top: 15px;
-  background: #FFF8DC;
+  background: black;
+  color: white;
   clear: both;
+
 }
 
 form {
